@@ -1,0 +1,45 @@
+
+body, html {
+    height: 100%;
+}
+
+h1 {
+    padding-top: 10%;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 100%;
+}
+
+.btn-default{
+    background-color: white;
+    color: black;
+}
+
+.btn-default:hover{
+    background-color: grey;
+    color: white;
+}
+
+footer {
+    background-color: grey;
+    padding: 1%;
+}
+
+p {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.bgk { 
+    /* The image used */
+    background-image:url("img/address.jpeg");
+
+    /* Full height */
+    height: 80%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}                    
+                    
