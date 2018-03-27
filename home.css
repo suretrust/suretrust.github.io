@@ -9,6 +9,13 @@ body, html {
     text-shadow: 2px 2px 4px #000000;
 }
 
+.h11 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 150%;
+    font-weight: bold;
+}
+
 .add {
     color:white;
 }
@@ -18,28 +25,35 @@ body, html {
     text-shadow: 2px 2px 4px #000000;
 }
 
+
+
 footer {
     background-color: grey;
     padding: 1%;
 }
 
-p {
+p, .name, .number, .email {
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
 
-.bgk { 
-    /* The image used */
-    background-image:url("img/address.jpeg");
+.margin-left{
+    margin-left: 3% !important;
+}
 
-    /* Full height */
+.homeDtl, .addForm, .view { 
+
+    /* The image used */
+    background-image:url("img/address1.jpeg");
+
+    /* Height */
     height: 82%; 
 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}                    
+}              
             
 input{
     text-align:center;
