@@ -41,10 +41,10 @@ p, .name, .number, .email {
     margin-left: 3% !important;
 }
 
-.homeDtl, .addForm, .view { 
+.homeDtl, .addForm, .view, .editForm { 
 
     /* The image used */
-    background-image:url("img/address1.jpeg");
+    background-image:url("img/address.jpeg");
 
     /* Height */
     height: 82%; 

@@ -7,11 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="scripts/addressBook.js"></script>
-
+  
 </head>
 
 <body>
@@ -61,14 +57,37 @@
     </form>
 </div>
 
+<div id="editForm" class="editForm text-center text-white" style="display:none">
+    <h1 class="text-uppercase h1"><strong>Add contact</strong></h1><br />
+    <form class="container">
+        <div class="form-group">
+            <input type="name" class="form-control" id="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <input type="phone" class="form-control" id="number" placeholder="Phone Number">
+        </div>
+        <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Email Address">
+        </div>
+        <button type="submit" class="btn btn-lg btn-primary" onclick="replaceContact()">Update</button>
+        <button type="submit" class="btn btn-lg btn-primary" id="cancel" onclick="hideForm()">Cancel</button><br/><br/>
+    </form>
+</div>
+
 <div id="view" class="view text-center text-white" style="display:none">
     
 </div>
 
-</body>
-
 <footer class="text-center">
     <p><small>&copy; SureTrust Tech. All rights reserved.</small></p>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="scripts/addressBook.js"></script>
+
+
+</body>
 
 </html>
